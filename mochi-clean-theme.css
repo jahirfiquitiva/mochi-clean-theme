@@ -1,0 +1,55 @@
+html:not(.dark) {
+	--mochi--side-bar--background: #eee;
+}
+
+html:not(.dark) .memo_views_app_mobile-frame {
+	--mochi--side-bar--background: #fafafa;
+}
+
+html.dark {
+	--mochi--side-bar--background: #18181b;
+	--mochi--card--background: #27272a;
+}
+
+html.dark .memo_views_app_mobile-frame {
+	--mochi--side-bar--background: #202023;
+}
+
+button {
+	--fn3: 2rem !important;
+}
+
+button,
+.memo_views_side-bar_elements_search-box,
+.memo_views_side-bar_elements_side-bar-item-group,
+.memo_views_side-bar_elements_side-bar-item,
+.memo_views_atoms_menu_menu-item {
+	min-height: 2rem;
+}
+
+.memo_views_modal_card_side-class {
+	padding: 1rem 1.5rem;
+}
+
+.memo_views_modal_card_side-class:first-of-type {
+	padding-top: 0.5rem;
+}
+
+.memo_views_modal_card_content-wrapper {
+	padding: 0;
+}
+
+.memo_views_side-bar_elements_side-bar-container.side-bar-container {
+	border-right: 1px solid var(--mochi--progressbar--background);
+}
+
+.memo_views_flyout_shortcuts_kbd-row {
+	align-items: center;
+}
+
+.memo_views_flyout_shortcuts_kbd-row-inner {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
