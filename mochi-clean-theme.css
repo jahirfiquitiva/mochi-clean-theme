@@ -15,6 +15,17 @@ html.dark .memo_views_app_mobile-frame {
 	--mochi--side-bar--background: #202023;
 }
 
+@media (prefers-color-scheme: dark) {
+	html:not(.light) {
+		--mochi--side-bar--background: #18181b;
+		--mochi--card--background: #27272a;
+	}
+
+	html:not(.light) .memo_views_app_mobile-frame {
+		--mochi--side-bar--background: #202023;
+	}
+}
+
 button {
 	--fn3: 2rem !important;
 }
