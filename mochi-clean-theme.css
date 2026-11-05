@@ -1,3 +1,7 @@
+:root {
+	--fonts-monospace: 'MonoLisaCode', 'MonoLisa Variable', ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+}
+
 html:not(.dark) {
 	--mochi--side-bar--background: #eee;
 }
